@@ -29,3 +29,39 @@ Use the run button in your IDE's editor gutter, or run tests using Gradle tasks:
 ---
 
 Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+
+---
+
+# Praktikum 3 - My Profile App
+
+## Deskripsi
+
+My Profile App merupakan aplikasi sederhana yang dibuat menggunakan
+Compose Multiplatform untuk menampilkan informasi profil pengguna.
+
+## Fitur
+
+- Profile Header
+- Profile Photo
+- About Me
+- Contact Information
+- Email
+- Phone
+- Location
+- Contact Me Button
+
+## Reusable Composable
+
+- ProfileHeader()
+- InfoItem()
+- ProfileCard()
+
+## Teknologi
+
+- Kotlin
+- Compose Multiplatform
+- Material 3
+
+## Screenshot
+
+![My Profile App](screenshot.png)
