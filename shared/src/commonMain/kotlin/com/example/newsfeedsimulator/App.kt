@@ -35,8 +35,25 @@ import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach
 
+/**
+ * App() - Entry point utama aplikasi.
+ *
+ * Ganti pemanggilan di bawah ini untuk beralih antar halaman:
+ * - ProfileApp()   -> Menampilkan My Profile App (Tugas Praktikum Minggu 3)
+ * - NewsFeedApp()  -> Menampilkan News Feed Simulator
+ */
 @Composable
 fun App() {
+    // === GANTI DI SINI UNTUK BERALIH HALAMAN ===
+    ProfileApp()      // <- My Profile App (aktif sekarang)
+    // NewsFeedApp()  // <- News Feed Simulator (uncomment untuk mengaktifkan)
+}
+
+/**
+ * NewsFeedApp() - Halaman News Feed Simulator (kode asli)
+ */
+@Composable
+fun NewsFeedApp() {
 
     val newsManager = remember {
         NewsManager()
